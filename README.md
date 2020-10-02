@@ -1,10 +1,19 @@
 # tilgrep
 
 ## what is it
-api for searching today i learned articles
 
+API for searching today i learned articles
 
-todo: 
+## how it will work
 
-[ ] markdown parsing engine to move content 
-[ ] pr template (for people to just contribute to it)
+People submit their article - link, title, tags, excerpt. A script pulls out the content and feeds to a database. (MVP - use algolia free) 
+
+## why 
+
+a lot of people write Today I learned articles. Not all of these things are easily googleable. 
+
+## todo
+
+- [ ] create a basic minimalist template html for site
+- [ ] markdown parsing engine to move content 
+- [ ] pr template (for people to just contribute to it)
